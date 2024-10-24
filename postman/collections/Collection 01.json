@@ -22,14 +22,38 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/get",
+					"raw": "{{baseUrl}}/cities",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
-						"get"
+						"cities"
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test02",
+			"id": "5ebbc958-5d6a-41a4-8e84-8af61158cec3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Test03",
+			"id": "d0d167a1-8d6d-4bcc-b142-7e6493958f7e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
