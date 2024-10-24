@@ -41,13 +41,43 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/blood-types",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"blood-types"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "Test03",
 			"id": "d0d167a1-8d6d-4bcc-b142-7e6493958f7e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/boats",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"boats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test03 Copy",
+			"id": "ce87c459-e033-4e36-bea7-7798fa82ced3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
