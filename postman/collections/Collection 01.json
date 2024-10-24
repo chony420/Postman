@@ -104,6 +104,21 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Test03 Copy 3",
+			"id": "7d29cf7b-ec6a-4746-a9ec-9b5b980b06c2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
 		}
 	]
 }
